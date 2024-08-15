@@ -1,5 +1,3 @@
-const num = 10;
+let num = 20;
+num = 21;
 console.log(num);
-
-//let num = 20;
-//console.log(num);

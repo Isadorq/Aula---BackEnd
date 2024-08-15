@@ -3,4 +3,4 @@ const h = 6
 
 const inf = (b * h)
 
-console.log(inf / 2);
+console.log("Sua área é de:", inf / 2);
