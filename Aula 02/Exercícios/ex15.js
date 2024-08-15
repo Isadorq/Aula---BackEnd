@@ -1,16 +1,5 @@
-const readline = require('readline');
-
-const rl = readline.create.Interface({
-    input: process.stdin,
-    output: process.stdout
-});
-
-rl.question(`Digite se peso: `, (valor1) ==> {
-    rl.question(`Digite seu peso: `, (valor2) ==> {
-        console.log('Primeiro valor: ', valor1);
-        console.log('Segundo valor:', valor2);
-        console.log(valor1 + valor2);
-        const inf = (valor1 / valor2);
-        console.log(inf ** 2);
-    });
-});
+const peso = 62;
+const altura = 1.70; 
+const altura2 = (altura * altura);
+const imc = (peso / altura2);
+console.log("Seu IMC é:", imc.toFixed(2));
