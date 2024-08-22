@@ -17,6 +17,6 @@ console.log(cifrao);
 console.log(aMaiusculo);
 console.log(tique);
 console.log(hiragana);
-console.log(stexto.lenght); // nome da string . lenght retorna o
+console.log(stexto.length); // nome da string . lenght retorna o
 // tamanho da string
-console.log(texo.lenght);  // retorna o tamanho da string
+console.log(texto.length);  // retorna o tamanho da string
