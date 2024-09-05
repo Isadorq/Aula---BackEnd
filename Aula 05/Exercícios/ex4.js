@@ -1,0 +1,11 @@
+let clinica = []
+clinica.push(`Marcelo - Dachshund`)
+clinica.push(`Bibi - Poodle`)
+clinica.push(`Max - Fila Brasileiro`)
+console.log(clinica)
+clinica.pop()
+console.log(clinica)
+clinica.shift()
+console.log(clinica)
+clinica.pop()
+console.log(clinica)
