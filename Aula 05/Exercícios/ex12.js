@@ -1,37 +1,40 @@
-const anoAtual = new Date().getFullYear()
-
-
-class livro {
+class pessoa {
     constructor(){
-        this.titulo
-        this.autor
-        this.anoPublicacao
-        this.genero
+        this.nome
+        this.dataNascimento
+        this.carteiraIdentidade
+        this.email
+        this.telefone
+        this.cidade
+        this.estado    
+        this.seguroSocial
+        this.cpf
     }
 
-    anos(){
-        return anoAtual - this.anoPublicacao;
+    ultimosCPF (){
+        return Ultimo = this.cpf.slice(-4)
     }
 
-    mostrarDetalhes(){
-        console.log(`O livro ${this.titulo} foi escrito por ${this.autor} no ano de ${this.anoPublicacao}, e é do gênero de ${this.genero}.`)
-        console.log(`Ele foi publicado há ${this.anos()} anos atrás`)
+    ultimosRG (){
+        return Ultimo = this.carteiraIdentidade.slice(-4)
     }
 
-    // avaliacao(novaAvaliacao = null) {
-        // if (novaAvaliacao !== null) {
-                // this.avaliar = novaAvaliacao;
-                // console.log(`A avaliação do livro "${this.titulo}" foi definida como: ${this.avaliar}.`);
-            // } 
-        // else {
-            // console.log(`O livro já tem uma avaliação: ${this.avaliar}.`);
-        // }
-    // }
+    informacoes(){
+        console.log(`Nome: ${this.nome}, Nascimento: ${this.nascimento}, RG: ${this.carteiraIdentidade}, Email: ${this.email},
+            Telefone: ${this.telefone}, Cidade: ${this.cidade}, Estado: ${this.estado},
+            Seguro Social: ${this.seguroSocial}, CPF: ${ultimosCPF} `)
+    }
+
 }
 
-let livro1 = new livro()
-livro1.titulo = "O Labirinto do Fauno"
-livro1.autor = "Guilhermo Del Toro"
-livro1.anoPublicacao = 2019
-livro1.mostrarDetalhes()
-livro1.avaliacao()
+const pessoa1 = new pessoa()
+pessoa1.nome = "Bruce Banner"
+pessoa1.dataNascimentos = "25.01.1980"
+pessoa1.carteiraIdentidade = 997776
+pessoa1.email = "profbanner@email.com"
+pessoa1.telefone = 552877776666
+pessoa1.cidade = "Cachoeiro de Itapemirim"
+pessoa1.estado = "ES"
+pessoa1.seguroSocial = 21123
+pessoa1.cpf = 267344835
+pessoa1.informacoes()
