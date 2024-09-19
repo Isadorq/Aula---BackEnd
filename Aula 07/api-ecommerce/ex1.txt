@@ -1,0 +1,6 @@
+produtos => nome
+- qtde
+- valor
+
+clientes => login
+- senha
