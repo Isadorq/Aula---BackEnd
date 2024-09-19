@@ -4,3 +4,6 @@ produtos => nome
 
 clientes => login
 - senha
+
+insomnia 
+thunder client => vscode
