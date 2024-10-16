@@ -30,7 +30,5 @@ livro1.anoPublicacao = 2002;
 livro1.genero = "Conto de fadas";
 
 livro1.mostrarDetalhes();
-
 livro1.atualizarGenero("Aventura");
-
 livro1.mostrarDetalhes();
