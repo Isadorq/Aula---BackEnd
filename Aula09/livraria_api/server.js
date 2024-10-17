@@ -8,7 +8,7 @@ app.use(cors())
 app.use(express.json())
 
 // conexão ao mongodb
-mongoose.connect('mongodb+srv://sarahcruz0492:root@library.9csy9.mongodb.net/?retryWrites=true&w=majority&appName=Library')
+mongoose.connect('mongodb+srv://isa:salsicha@biblioteca.jve9d.mongodb.net/?retryWrites=true&w=majority&appName=Biblioteca')
 .then(() => console.log('MongoDB conectado'))
 .catch(err => console.error('Erro ao conectar ao MongoDB', err))
 
